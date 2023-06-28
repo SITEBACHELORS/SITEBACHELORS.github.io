@@ -1,8 +1,14 @@
 {
-  "Thanks": {
-      "1": "Merci"
-  },
-  "Why": {
-      "1": "Pourquoi?"
+  "About Us": "À Propos",
+  "Donations": "Dons",
+  "Bachelors": "Bachelors",
+  "FAQ": "FAQ",
+  "Contact Us": "Nous Contacter",
+  
+  "Section": {
+    "Title": "Bienvenue sur notre site !",
+    "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   }
+  
+  
 }

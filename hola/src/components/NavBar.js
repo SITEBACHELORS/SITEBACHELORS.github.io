@@ -42,11 +42,3 @@ function App() {
     <div className="App">
       <Navbar />
       <section>
-        <h2>{t('Section.Title')}</h2>
-        <p>{t('Section.Content')}</p>
-      </section>
-    </div>
-  );
-}
-
-export default App;

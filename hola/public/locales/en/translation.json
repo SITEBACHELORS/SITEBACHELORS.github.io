@@ -1,8 +1,14 @@
 {
-    "Thanks": {
-        "1": "Thank you"
-    },
-    "Why": {
-        "1": "For watching this video"
-    }
+    "About Us": "About Us",
+    "Donations": "Donations",
+    "Bachelors": "Bachelors",
+    "FAQ": "FAQ",
+    "Contact Us": "Contact Us",
+     "Section": {
+          "Title": "Welcome to our website!",
+          "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      
+      
 }
+  
