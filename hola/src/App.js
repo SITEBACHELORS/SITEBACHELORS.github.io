@@ -2,8 +2,8 @@ import React from 'react';
 
 import './App.css';
 import { useTranslation } from 'react-i18next';
-import i18next from 'i18next';
-import Navbar from "./components/NavBar";
+
+import Navbar from "./components/navbar.js";
 
 
 function App() {
