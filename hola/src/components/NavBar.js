@@ -73,7 +73,9 @@ function Navbar() {
   return (
     <nav style={styles.navContainer}>
       <div>
-        <img src={logo} alt="Logo" id="logo" style={{ width: '200px', padding: '10px', marginRight: '10px', marginLeft: '50px' }} />
+        <a href="/" style={{ textDecoration: 'none' }}>
+          <img src={logo} alt="Logo" id="logo" style={{ width: '200px', padding: '10px', marginRight: '10px',marginLeft: '50px' }} />
+        </a>
       </div>
       <div style={{ display: 'flex', alignItems: 'center', marginLeft: 'auto', marginRight: '50px', padding: '10px' }}>
         <a
