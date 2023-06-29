@@ -23,7 +23,7 @@ function Navbar() {
 
   return (
     <header>
-      <nav ref={navRef}>
+      <nav ref={navRef} style={{ boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)' }}>
         <a href="/" style={{ textDecoration: 'none' }}>
           <img src={logo} alt="Logo" id="logo" className="logo" style={{ width: '200px', padding: '10px', marginRight: '10px', marginLeft: '50px' }} />
         </a>
