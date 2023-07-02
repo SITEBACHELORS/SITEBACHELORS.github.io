@@ -57,6 +57,7 @@ function Navbar() {
         >
           {t('Bachelors')}
         </RouterLink>
+        
         <Link
           to="faq"
           className="nav-link"
@@ -67,6 +68,13 @@ function Navbar() {
         >
           {t('FAQ')}
         </Link>
+        <RouterLink
+          to="/faq"
+          className="nav-link"
+        >
+          {t('FAQ')}
+        </RouterLink>
+
         <Link
           to="ContactUs"
           className="nav-link"

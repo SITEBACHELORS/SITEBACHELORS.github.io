@@ -12,11 +12,11 @@ export default function Footer() {
         </div>
       </div>
       <div style={{ display: "flex", justifyContent: "center", marginBottom: "10px" }}>
-        <a href="/aboutUs" style={{ marginRight: "20px", color: "#FFF" }}>About Us</a>
+        <a href="/#aboutUs" style={{ marginRight: "20px", color: "#FFF" }}>About Us</a>
         <a href="/donate" style={{ marginRight: "20px", color: "#FFF" }}>Donations</a>
         <a href="/Bachelors" style={{ marginRight: "20px", color: "#FFF" }}>Bachelors</a>
-        <a href="/faq" style={{ marginRight: "20px", color: "#FFF" }}>FAQ</a>
-        <a href="/contact-us" style={{ color: "#FFF" }}>Contact Us</a>
+        <a href="/#faq" style={{ marginRight: "20px", color: "#FFF" }}>FAQ</a>
+        <a href="/#contact-us" style={{ color: "#FFF" }}>Contact Us</a>
       </div>
       <hr style={{ borderTop: "1px solid #FFF", margin: "20px 0" }} />
       <div style={{ display: "flex", justifyContent: "center", marginBottom: "10px" }}>

@@ -22,6 +22,7 @@ function App() {
           <Route path="/" element={<MainContent />} />
           <Route path="/bachelors" element={<Bachelors />} />
           <Route path="/donate" element={<Donate />} />
+          
         </Routes>
         <Footer />
       </div>
