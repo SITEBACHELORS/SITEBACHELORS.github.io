@@ -11,41 +11,36 @@ export default function AboutUs() {
         <a style={{ fontSize: '20px', color: '#F24E1E' }}>{t('About Us')}</a>
       </div>
 
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '40px' }}>
-        <a style={{ fontSize: '50px' }}>{t('coffee')}</a>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px' }}>
+        <a style={{ fontSize: '45px',  }}>{t('coffee')}</a>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '30px' }}>
-        <div style={{ maxWidth: '700px' }}>
+      <div style={{ display: 'flex', paddingLeft: '50px', paddingRight: '50px' }}>
+        <div style={{ flex: '0.6',  }}>
+          <img src={pie} alt="Pie" style={{ borderRadius: '10px', maxWidth: '100%', height: 'auto' }} />
+        </div>
+
+        <div style={{ flex: '1',paddingLeft: '100px', paddingRight: '100px' }}>
           <div style={{ display: 'flex', alignItems: 'center', color: '#F24E1E', marginBottom: '10px' }}>
             <a style={{ fontSize: '20px', color: '#F24E1E' }}>{t('Mission')}</a>
           </div>
           <div style={{ textAlign: 'justify' }}>
             <a>{t('missionStatement')}</a>
           </div>
-        </div>
-      </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <div style={{ maxWidth: '700px' }}>
-          <div style={{ display: 'flex', alignItems: 'center', color: '#F24E1E', marginBottom: '10px' }}>
-            <a style={{ fontSize: '20px', color: '#F24E1E' }}>{t('Drive')}</a>
-          </div>
-          <div style={{ textAlign: 'justify' }}>
-            <a>{t('driveStatement1')}</a>
-          </div>
-          <div style={{ textAlign: 'justify' }}>
-            <a>{t('driveStatement2')}</a>
-          </div>
-          <div style={{ textAlign: 'justify' }}>
-            <a>{t('driveStatement3')}</a>
-          </div>
-        </div>
-      </div>
+          <div style={{ display: 'flex', alignItems: 'center', color: '#F24E1E', marginBottom: '10px', marginTop: '30px' }}>
+  <a style={{ fontSize: '20px', color: '#F24E1E' }}>{t('Drive')}</a>
+</div>
+<div style={{ textAlign: 'justify', marginBottom: '20px' }}>
+  <a>{t('driveStatement1')}</a>
+</div>
+<div style={{ textAlign: 'justify', marginBottom: '20px' }}>
+  <a>{t('driveStatement2')}</a>
+</div>
+<div style={{ textAlign: 'justify', marginBottom: '20px' }}>
+  <a>{t('driveStatement3')}</a>
+</div>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <div style={{ flex: '0.3' }}>
-          <img src={pie} alt="Pie" style={{ borderRadius: '5px', maxWidth: '100%', height: 'auto' }} />
         </div>
       </div>
     </div>

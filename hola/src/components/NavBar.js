@@ -27,7 +27,7 @@ function Navbar() {
         <a href="/" style={{ textDecoration: 'none' }}>
           <img src={logo} alt="Logo" id="logo" className="logo" style={{ width: '200px', padding: '10px', marginRight: '10px', marginLeft: '50px' }} />
         </a>
-        <a href="/about" className="nav-link"> {t('About Us')} </a>
+        <a href="/aboutUs" className="nav-link"> {t('About Us')} </a>
         <a href="/donations" className="nav-link"> {t('Donations')} </a>
         <a href="/bachelors" className="nav-link"> {t('Bachelors')} </a>
         <a href="/faq" className="nav-link"> {t('FAQ')} </a>
