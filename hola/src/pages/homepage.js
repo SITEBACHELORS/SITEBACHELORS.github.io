@@ -84,41 +84,7 @@ export default function Example() {
 </div>
 
 
-      {mobileMenuOpen && (
-        <div className="fixed inset-0 bg-white z-50 p-6">
-          <div className="flex items-center justify-between mb-6">
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
-            <button
-              type="button"
-              className="p-2 rounded-md text-gray-700"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              <XMarkIcon className="h-6 w-6" aria-hidden="true" />
-            </button>
-          </div>
-          <div className="space-y-2">
-            {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-              >
-                {item.name}
-              </a>
-            ))}
-            <a
-              href="#"
-              className="block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-            >
-              Log in
-            </a>
-          </div>
-        </div>
-      )}
+      
     </div>
   );
 }
